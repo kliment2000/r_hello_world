@@ -1,0 +1,70 @@
+---
+title: "sample"
+author: "klim"
+date: "2024-10-12"
+output:
+  html_document:
+    df_print: paged
+  pdf_document:
+    latex_engine: xelatex
+keep_markdown: true
+keep_tex: true
+header-includes:
+- \XeTeXdefaultencoding utf8
+- \usepackage{xltxtra}
+- \usepackage{fontspec}
+- \setmainfont{Times New Roman}
+- \setsansfont{Arial}
+- \setmonofont{Courier New}
+- \newfontfamily{\cyrillicfont}{Times New Roman}
+- \newfontfamily{\cyrillicfonttt}{Courier New}
+- \newfontfamily{\cyrillicfontsf}{Arial}
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+
+# Виды анализа
+
+## Дескриптивный анализ
+
+[Ссылка на статью](https://cyberleninka.ru/article/n/primenenie-metodov-opisatelnoy-statistiki-v-analize-tamozhennyh-riskov/viewer)
+
+Выбранное мной исследование использует дескриптивный анализ, так как в нем приводится описание набора данных, а также приводится информация о числе, наблюдений, моде, медиане, максимальном и минимальном значении, размахе, квартилях для некоторых величин.
+
+## Причинно-следственный анализ
+
+[Ссылка на статью](https://cyberleninka.ru/article/n/prichinno-sledstvennyy-analiz-faktorov-nevypolneniya-uchastkovoy-skorosti-i-mery-po-ee-povysheniyu-1/viewer)
+
+Выбранное мной исследование использует дескриптивный анализ, так как в нем приводятся последствия ограничения пропускной способности основных направлений дороги, такие как снижение средней скорости поездов и финансовые потери.
+
+# Заголовок
+
+## Подзаголовок
+
+### Подподзаголовок
+
+* Элемент списка 1
+* Элемент списка 2
+* Элемент списка 3
+
+1. Элемент списка 1
+2. Элемент списка 2
+3. Элемент списка 3
+
+[Мой GitHub](https://github.com/kliment2000)
+
+$\sum_{i=1}^{100} x_i = 1$
+
+![image](D:/R/r_hello_world/monkey.jpg)
+
+> С помощью цитат очень удобно в письме обозначать исходный текст.
+
+|          | Column 1 | Column 2 | Column 2 |
+|----------|----------|----------|----------|
+| Row 1    | Cell 11  | Cell 12  | Cell 13  |
+| Row 2    | Cell 21  | Cell 22  | Cell 23  |
+| Row 3    | Cell 31  | Cell 32  | Cell 33  |
+
